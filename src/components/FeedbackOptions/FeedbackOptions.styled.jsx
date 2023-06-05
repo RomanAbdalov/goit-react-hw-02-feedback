@@ -4,9 +4,7 @@ export const Button = styled.button`
   margin-right: 10px;
   padding: 10px;
   overflow: hidden;
-  border-radius: 10px;
-
-  box-shadow: ${props => props.theme.shadows.medium};
+  border-radius: 50px;
 
   transition-property: transform, box-shadow, background-color;
   transition-duration: 0.25s;
